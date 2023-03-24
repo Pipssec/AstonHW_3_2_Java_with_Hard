@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HomeWork_3_2</string>
+    <string name="button_uri">Load Image</string>
+    <string name="paste_picture_URL">Paste your URL</string>
+</resources>
