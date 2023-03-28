@@ -20,10 +20,9 @@ public class MainActivity extends AppCompatActivity {
         ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
-        Button loadButton = binding.openWebsiteButton;
         ImageView imageLoadLibrary = binding.imageViewPictureLibrary;
         EditText editTextUrl = binding.websiteEdittext;
-        loadButton.setOnClickListener(new View.OnClickListener() {
+        editTextUrl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String url = editTextUrl.getText().toString();

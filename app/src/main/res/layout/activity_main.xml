@@ -17,21 +17,12 @@
         android:hint="@string/paste_picture_URL"
         />
 
-    <Button
-        android:id="@+id/open_website_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:text="@string/button_uri"
-        app:layout_constraintTop_toBottomOf="@+id/website_edittext"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
         android:id="@+id/image_view_picture_library"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/open_website_button"
+        app:layout_constraintTop_toBottomOf="@+id/website_edittext"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
